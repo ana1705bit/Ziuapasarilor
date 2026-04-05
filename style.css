@@ -1,0 +1,109 @@
+body {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    animation: fadeIn 2s ease-in;
+}
+
+/* ANIMAȚIE GENERALĂ */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* HEADER */
+header {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    animation: slideDown 1s ease;
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-100px); }
+    to { transform: translateY(0); }
+}
+
+/* TITLU */
+h1 {
+    text-align: center;
+    transition: 0.3s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    color: yellow;
+}
+
+/* MENIU */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+/* BUTOANE */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* EFECT HOVER WOW */
+nav ul li a:hover {
+    background: yellow;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* SECȚIUNE */
+section {
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    margin: 20px;
+    border-radius: 15px;
+    animation: fadeIn 2s ease-in;
+}
+
+/* IMAGINI CU ANIMAȚIE */
+img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.1) rotate(2deg);
+}
+
+/* TABEL */
+table {
+    background: white;
+    color: black;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+}
+
+/* VIDEO */
+iframe {
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+  }
