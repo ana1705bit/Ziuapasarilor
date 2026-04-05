@@ -1,0 +1,32 @@
+<table class="tabel-luminos">
+    <tr>
+        <th>Specie</th>
+        <th>Habitat</th>
+        <th>Hrana</th>
+        <th>Durata vieții</th>
+    </tr>
+    <tr>
+        <td>Vrabie</td>
+        <td>Urban</td>
+        <td>Semințe</td>
+        <td>3 ani</td>
+    </tr>
+    <tr>
+        <td>Vultur</td>
+        <td>Munți</td>
+        <td>Carne</td>
+        <td>20 ani</td>
+    </tr>
+    <tr>
+        <td>Lebădă</td>
+        <td>Lacuri</td>
+        <td>Plante</td>
+        <td>15 ani</td>
+    </tr>
+    <tr>
+        <td>Bufniță</td>
+        <td>Pădure</td>
+        <td>Rozătoare</td>
+        <td>10 ani</td>
+    </tr>
+</table>
